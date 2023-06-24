@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./svgs/blob-scene-haikei.svg);
+    background-size: cover;
+}
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

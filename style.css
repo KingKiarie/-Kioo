@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    background-color: green;
+    .line1{
+        width: 20vw;
+        height: 10vh;
+        justify-content: left;
+        background-color: lightgreen;
+    }
+    .line2{
+        width: 20vw;
+        height: 10vh;
+        justify-content: right;
+        background-color: lightgreen;
+    }
+}
+.line p{
+    font-size: 34px;
+    font-family: font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
